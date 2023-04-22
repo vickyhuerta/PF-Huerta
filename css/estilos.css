@@ -17,10 +17,18 @@ body{
 .banner{
     background-position: center;
     background-size: cover;
-
+    width: 100%;
 }
 
 /* navvar styles */
+
+.flex-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 .navbar{
     font-size: 2.5rem;
@@ -75,8 +83,9 @@ a{
     width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     margin-top: 3rem;
-    
+    justify-content: space-between;
 }
 
 .pageTitle {
@@ -85,10 +94,10 @@ a{
 }
 
 .pageText {
+    width: 50%;
     font-size: 2.5rem;
     text-align: center;
-    align-items: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .pageImage {
@@ -96,7 +105,7 @@ a{
     border: 10px solid #DED2B1;
     box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
     margin-bottom: 2rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
 }
 
 /* Productos styles */
@@ -144,9 +153,9 @@ a{
     margin-bottom: 4rem;
 }
 
-.personalizados{ 
+.personalizados { 
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 5rem;
 } 
 
@@ -175,7 +184,8 @@ a{
 .contactform{
     font-size: 1.7rem;
     margin-left: 2rem;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .contact{
@@ -200,6 +210,15 @@ a{
 }
 
 /* Footer styles */
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: 2rem;
+}
 
 .footerinsta{
     font-size: 2rem;
