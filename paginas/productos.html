@@ -14,68 +14,89 @@
 </head>
 <body>
     <header> 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"> <img src="../multimedia/logo 2.png" alt="logo rame" class="navvarimage"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="nosotros.html">Nostros</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Producto </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="productos.html">Collares</a></li>
-                        <li><a class="dropdown-item" href="productos.html">Pulceras</a></li>
-                        <li><a class="dropdown-item" href="productos.html">Holders</a></li>
-                        <li><a class="dropdown-item" href="productos.html">Tobilleras</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="personalizados.html">Personalizados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
-                    </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="flex-navbar">
+                <div>
+                    <a class="navbar-brand" href="index.html"> <img src="../multimedia/logo 2.png" alt="logo rame" class="navvarimage"></a>                
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nostros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="productos.html">Collares</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Pulseras</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Holders</a></li>
+                                <li><a class="dropdown-item" href="productos.html">Tobilleras</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="personalizados.html">Personalizados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </nav>   
+        </nav>
     </header>
     <section>
-        <label for="filtar">       
-            <select name="filtrar">
-                <option value="filtrar">Filtrar</option>
-                <option value="filtrar">Collares</option>
-                <option value="filtrar">Pulseras</option>
-                <option value="filtrar">Holders</option>
-                <option value="filtrar">Tobilleras</option>
-            </select>
-        </label>
         <div class="product">
-            <img src="../multimedia/image 2.png" alt="collar" class="productImage">Collar
-            <img src="../multimedia/image 3.png" alt="pulsera" class="productImage">Pulcera
-            <img src="../multimedia/image 4.png" alt="holder" class="productImage">Holder
-            <img src="../multimedia/image 5.png" alt="tobillera" class="productImage">Tobillera
-            <img src="../multimedia/fotonosotros.png" alt="collar" class="imageDiferent">Collar
-            <img src="../multimedia/image 2.png" alt="collares" class="productImage">Collar
-            <img src="../multimedia/image 2.png" alt="collares" class="productImage">Collar
-            <img src="../multimedia/image 2.png" alt="collares" class="productImage">Collar
+            <div class="container">
+                <div class="row gx-8">
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 2.png" alt="collar" class="productImage"><p>Collar</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 3.png" alt="pulsera" class="productImage"><p>Pulsera</p>                                                          
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 4.png" alt="holder" class="productImage"><p>Holder</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 5.png" alt="tobillera" class="productImage"><p>Tobillera</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 3.png" alt="pulsera" class="productImage"><p>Pulsera</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 2.png" alt="collares" class="productImage"><p>Collar</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 5.png" alt="tobillera" class="productImage"><p>Tobillera</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="../multimedia/image 4.png" alt="holder" class="productImage"><p>Holder</p>
+                    </div>
+                </div> 
+            </div>           
         </div>
     </section>
     <footer>
         <hr>
-        <h3>Seguinos en:</h3>
-        <a href="https://www.instagram.com/rame.kos/"><img src="../multimedia/logo ig.png" alt="logo instagram"> @rame.kos</a>
-        <h2 class="footerText">¡Gracias por confíar en RAMÉ!</h2>
-        <div class="footerImageContainer">
-            <img src="../multimedia/logo 2.png" alt="logo rame" class="footerImage">
+        <div class="flex-footer">
+            <div>
+                <h3>Seguinos en:</h3>
+                <a href="https://www.instagram.com/rame.kos/"><img src="../multimedia/logo ig.png" alt="logo instagram"> @rame.kos</a>
+            </div>
+            <h2 class="footerText">¡Gracias por confíar en RAMÉ!</h2>
+            <div class="footerImageContainer">
+                <img src="../multimedia/logo 2.png" alt="logo rame" class="footerImage">
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
