@@ -1,0 +1,301 @@
+html { 
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+
+/* Body styles */
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9C3708;
+    background-color: #EEEFE2;
+}
+
+
+/* Banner styles */
+.banner{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+/* navvar styles */
+
+.flex-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar{
+    font-size: 2.5rem;
+    text-align: right;
+    margin: 1rem;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    /* background-color: #DED2B1; */
+}
+.navbar-brand{
+    margin-left: 2rem;
+}
+
+.nav-item{
+    margin-right: 2rem;
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.dropdown-menu{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #9C3708;
+    font-weight: bold;
+    
+} */
+
+/* Inicio styles */
+
+
+
+.container{
+    margin-top: 3rem;
+    
+}
+
+.homeContainer{ 
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+
+}
+
+.homeImage{
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+/* Nosotros styles */
+
+.pageContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.pageTitle {
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.pageText {
+    width: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.pageImage {
+    width: 30%;
+    border: 10px solid #DED2B1;
+    box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
+    margin-bottom: 3rem;
+    margin-right: 5rem;  
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .pageContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pageImage{
+        width: 100%;
+    }
+    .pageText{
+        margin: 0;
+        text-align: center;
+    }
+} 
+
+
+
+/* Productos styles */
+
+
+.product{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    
+    
+
+}
+
+.productImage{
+    margin: 2rem 2rem;
+    
+}
+
+.imageDiferent{
+    width: 30%;
+    border: 10px solid #DED2B1;
+    box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* Personalizados styles */
+
+.personcontainer{
+    margin-top: 3rem;
+
+}
+
+
+.pedidosPersonalizados{ 
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.personalizados { 
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+} 
+
+.person{
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.personImage{
+    width: 420px;
+    height: 400px;
+    margin: 3rem 3rem;
+    border: 10px solid #DED2B1;
+    box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2rem; 
+}
+
+/* Contacto style */
+
+.contactcontainer{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.contactform{
+    font-size: 2rem;
+    margin-left: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    text-align: center;
+    margin: 0% auto;
+}
+
+.contactImage{
+    width: 40%;
+    border: 10px solid #DED2B1;
+    box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2rem; 
+    margin-top: 10rem;  
+    margin-right: 5rem;
+}
+
+.contactText{
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.entercontact{
+    margin-left:20rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .contactcontainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact{
+        width: 100%;
+        margin-right: 2rem;        
+    }
+    .contactform{
+        margin: 5%;
+        text-align: center;
+    }
+    .entercontact{
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20rem;
+    }
+} 
+
+/* Footer styles */
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: 2rem;
+}
+
+.footerinsta{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.footerinstaimage{
+    margin-left: 2rem;
+}
+
+
+.footerImageContainer {
+    text-align: right;
+}
+
+.footerImage {
+    width: 100px; 
+    margin-right: 2rem;
+}
+
+.footerText{ 
+    text-align: center;
+    font-size: 3rem;
+}
