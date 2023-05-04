@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #9C3708;
+    background-color: #EEEFE2;
+}
+
+.banner{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+@import "variables";
+@import "navbarstyle";
+@import "iniciostyle";
+@import "nosotrosstyle";
+@import "productosstyle";
+@import "personalizadosstyle";
+@import "contactostyle";
+@import "footerstyle";
+

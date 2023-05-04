@@ -1,0 +1,32 @@
+.navbar{
+    font-size: 2.5rem;
+    text-align: right;
+    margin: 1rem;
+    margin-top: 2rem;
+    column-gap: 2rem;
+    .flex-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .navbar-brand{
+            margin-left: 2rem;
+            .nav-item{
+                margin-right: 2rem;
+                text-align: right;
+                font-size: 2.5rem;
+                .dropdown-menu{
+                    font-size: 2rem;
+                }
+            }
+        } 
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #9C3708;
+    font-weight: bold;
+    
+} 

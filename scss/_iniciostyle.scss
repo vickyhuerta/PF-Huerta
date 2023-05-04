@@ -1,0 +1,19 @@
+.container{
+    margin-top: 3rem;
+    .homeContainer{ 
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 1rem;
+        .homeImage{
+            margin: 3rem 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            
+        }
+    }
+}
+
+
+

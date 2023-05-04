@@ -1,0 +1,24 @@
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: 2rem;
+    .footerText{ 
+        text-align: center;
+        font-size: 3rem;
+    }    
+    .footerImageContainer {
+        text-align: right;
+        .footerImage {
+            width: 100px; 
+            margin-right: 2rem;
+        }
+    }
+        
+}
+
+
+
+

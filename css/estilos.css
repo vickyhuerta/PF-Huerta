@@ -5,24 +5,24 @@ html {
 
 
 /* Body styles */
-body{
+/* body{
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: #9C3708;
     background-color: #EEEFE2;
-}
+} */
 
 
 /* Banner styles */
-.banner{
+/* .banner{
     background-position: center;
     background-size: cover;
     width: 100%;
-}
+} */
 
 /* navvar styles */
 
-.flex-navbar {
+/* .flex-navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,8 +36,9 @@ body{
     margin: 1rem;
     margin-top: 2rem;
     column-gap: 2rem;
-    /* background-color: #DED2B1; */
-}
+
+} 
+
 .navbar-brand{
     margin-left: 2rem;
 }
@@ -61,9 +62,7 @@ a{
 
 /* Inicio styles */
 
-
-
-.container{
+/* .container{
     margin-top: 3rem;
     
 }
@@ -82,11 +81,11 @@ a{
     justify-content: space-evenly;
     
     
-}
+} */
 
 /* Nosotros styles */
 
-.pageContainer {
+/* .pageContainer {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -132,12 +131,10 @@ a{
     }
 } 
 
-
+ */
 
 /* Productos styles */
-
-
-.product{
+/* .product{
     font-size: 2.5rem;
     text-align: center;
     margin: 1rem;
@@ -154,19 +151,10 @@ a{
     margin: 2rem 2rem;
     
 }
-
-.imageDiferent{
-    width: 30%;
-    border: 10px solid #DED2B1;
-    box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
-    margin-bottom: 2rem;
-    margin-right: 2rem;
-}
-
-
+ */
 /* Personalizados styles */
 
-.personcontainer{
+/* .personcontainer{
     margin-top: 3rem;
 
 }
@@ -202,10 +190,10 @@ a{
     border: 10px solid #DED2B1;
     box-shadow: 9px 7px 14px 0px rgba(0,0,0,0.75);
     margin-bottom: 2rem; 
-}
+} */
 
 /* Contacto style */
-
+/* 
 .contactcontainer{
     display: flex;
     margin-top: 3rem;
@@ -263,11 +251,11 @@ a{
         justify-content: center;
         margin-right: 20rem;
     }
-} 
+}  */
 
 /* Footer styles */
 
-.flex-footer {
+/* .flex-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -298,4 +286,4 @@ a{
 .footerText{ 
     text-align: center;
     font-size: 3rem;
-}
+} */
