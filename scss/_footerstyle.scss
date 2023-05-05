@@ -4,7 +4,11 @@
     justify-content: space-between;
     align-items: center;
     height: 20vh;
-    margin: 2rem;
+    margin: 3rem;
+    .fontfooter {
+        font-size: 2rem;
+        margin-left: 2rem;
+    } 
     .footerText{ 
         text-align: center;
         font-size: 3rem;
