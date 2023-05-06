@@ -15,6 +15,7 @@
         color: #9C3708;
         text-decoration: none;
         font-weight: bold;
+        transform: translate(15px,-30px);
     } 
     .footerText{ 
         text-align: center;
@@ -30,6 +31,25 @@
         }
     }
         
+}
+
+@media (max-width: 770px){
+    .flex-footer{
+        flex-direction: column;
+        justify-content: center;
+        .segfooter{
+            font-size: 1.5rem;
+        }
+        .fontfooter{
+            font-size: 1rem;
+        }
+        .footerText{
+            font-size: 2rem;
+        }
+        .footerImageContainer{
+            text-align: center;
+        }
+    }
 }
 
 

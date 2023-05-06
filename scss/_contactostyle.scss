@@ -37,18 +37,24 @@
     .contactcontainer{
         flex-direction: column;
         justify-content: center;
-    }
-    .contact{
-        width: 100%;
-        margin-right: 2rem;        
-    }
-    .contactform{
-        margin: 5%;
-        text-align: center;
-    }
-    .entercontact{
-        flex-direction: column;
-        justify-content: center;
-        margin-right: 20rem;
+
+        .contact{
+            width: 100%;
+            margin-right: 2rem;
+            .contactImage{
+                width:90%;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+            }        
+        }
+        .contactform{
+            margin: 5%;
+            text-align: center;
+        }
+        .entercontact{
+            flex-direction: column;
+            justify-content: center;
+            margin:0;
+        }
     }
 } 

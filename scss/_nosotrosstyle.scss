@@ -26,18 +26,21 @@
         margin-top: 2rem;
     }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 770px){
     .pageContainer{
         flex-direction: column;
         justify-content: center;
-    }
-    .pageImage{
-        width: 100%;
-    }
-    .pageText{
-        margin: 0;
-        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        .pageImage{
+            width:90%;
+            margin: 0 auto;
+        }
+        .pageText{
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+        }
     }
 } 
 
