@@ -67,6 +67,7 @@ body {
   text-align: center;
   flex-wrap: wrap;
   margin-top: 3rem;
+  transform: translateX(-30px);
 }
 
 .pageTitle {
@@ -99,17 +100,21 @@ body {
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .pageContainer {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
-  .pageImage {
-    width: 100%;
+  .pageContainer .pageImage {
+    width: 90%;
+    margin: 0 auto;
   }
-  .pageText {
-    margin: 0;
+  .pageContainer .pageText {
+    margin: 0 auto;
     text-align: center;
+    width: 100%;
   }
 }
 .product {
@@ -150,12 +155,49 @@ body {
   box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.75);
   margin-bottom: 2rem;
 }
+.personcontainer .person .personImage2 {
+  width: 420px;
+  height: 400px;
+  margin: 3rem 3rem;
+  border: 10px solid #DED2B1;
+  box-shadow: 9px 7px 14px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 2rem;
+  transform: rotate(90deg);
+}
 .personcontainer .personalizados {
   text-align: center;
   font-size: 2.5rem;
   margin-top: 5rem;
 }
 
+@media (max-width: 770px) {
+  .personcontainer {
+    margin: 0 auto;
+  }
+  .personcontainer .person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .personcontainer .person .personImage {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  .personcontainer .person .personImage2 {
+    width: 400px;
+    margin-top: 10rem;
+    height: 341.46px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+  }
+  .personcontainer .personalizados {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+  }
+}
 .contactcontainer {
   display: flex;
   margin-top: 3rem;
@@ -195,18 +237,23 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  .contact {
+  .contactcontainer .contact {
     width: 100%;
     margin-right: 2rem;
   }
-  .contactform {
+  .contactcontainer .contact .contactImage {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .contactcontainer .contactform {
     margin: 5%;
     text-align: center;
   }
-  .entercontact {
+  .contactcontainer .entercontact {
     flex-direction: column;
     justify-content: center;
-    margin-right: 20rem;
+    margin: 0;
   }
 }
 .flex-footer {
@@ -227,6 +274,7 @@ body {
   color: #9C3708;
   text-decoration: none;
   font-weight: bold;
+  transform: translate(15px, -30px);
 }
 .flex-footer .footerText {
   text-align: center;
@@ -239,6 +287,25 @@ body {
 .flex-footer .footerImageContainer .footerImage {
   width: 100px;
   margin-right: 2rem;
+}
+
+@media (max-width: 770px) {
+  .flex-footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .flex-footer .segfooter {
+    font-size: 1.5rem;
+  }
+  .flex-footer .fontfooter {
+    font-size: 1rem;
+  }
+  .flex-footer .footerText {
+    font-size: 2rem;
+  }
+  .flex-footer .footerImageContainer {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
