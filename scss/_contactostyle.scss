@@ -33,16 +33,15 @@
     }         
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .contactcontainer{
         flex-direction: column;
         justify-content: center;
-
         .contact{
             width: 100%;
             margin-right: 2rem;
             .contactImage{
-                width:90%;
+                width:100%;
                 margin: 0 auto;
                 margin-bottom: 2rem;
             }        

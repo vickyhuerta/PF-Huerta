@@ -50,8 +50,17 @@ body {
   margin-left: 2rem;
 }
 
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
 .container {
   margin-top: 3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .container .homeContainer {
   font-size: 2.5rem;
@@ -60,9 +69,6 @@ body {
 }
 .container .homeContainer .homeImage {
   margin: 3rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   font-size: 2.5rem;
   text-align: center;
   flex-wrap: wrap;
@@ -70,6 +76,14 @@ body {
   transform: translateX(-30px);
 }
 
+@media (max-width: 770px) {
+  .container .homeContainer .homeImage {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .pageTitle {
   font-size: 3rem;
   margin-left: 2rem;
@@ -100,7 +114,7 @@ body {
   margin-top: 2rem;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
   .pageContainer {
     flex-direction: column;
     justify-content: center;
@@ -232,7 +246,7 @@ body {
   margin-right: 5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .contactcontainer {
     flex-direction: column;
     justify-content: center;
@@ -242,7 +256,7 @@ body {
     margin-right: 2rem;
   }
   .contactcontainer .contact .contactImage {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 2rem;
   }
