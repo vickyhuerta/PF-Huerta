@@ -1,19 +1,37 @@
-html {
-  font-size: 62.5%;
-  /* 1rem = 10px */
-}
-
+html,
 body {
+  padding: 0;
   margin: 0;
+  min-height: 100vh;
   font-family: "Josefin Sans", sans-serif;
   color: #9C3708;
   background-color: #EEEFE2;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+  font-size: 62.2%;
 }
 
-.banner {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
 }
 
 .navbar {
@@ -51,36 +69,41 @@ body {
 }
 
 .banner {
-  display: flex;
-  flex-direction: row;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 
 .container {
+  margin: 0 auto;
   margin-top: 3rem;
-  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-}
-.container .homeContainer {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 1rem;
-}
-.container .homeContainer .homeImage {
-  margin: 3rem;
-  font-size: 2.5rem;
-  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
-  transform: translateX(-30px);
+}
+.container .imageContainer p {
+  font-size: 2rem;
+  text-align: center;
 }
 
 @media (max-width: 770px) {
-  .container .homeContainer .homeImage {
+  .container {
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .container .imageContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    flex-direction: column;
+  }
+  .container .imageContainer .homeImage {
     margin: 0 auto;
   }
 }
@@ -132,18 +155,38 @@ body {
   }
 }
 .product {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 1rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin: 0 auto;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.product .productImage {
-  margin: 2rem 2rem;
+.product .containerProductImage p {
+  font-size: 2rem;
+  text-align: center;
 }
 
+@media (max-width: 770px) {
+  .product {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+  .product .containerProductImage {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product .containerProductImage .productImage {
+    margin: 0 auto;
+  }
+}
 .personcontainer {
   margin-top: 3rem;
 }
